@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Stuart Robertson
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          stuart@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +441234567890
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.discordapp.net/attachments/1088424095177257050/1155867670231662632/rdtzn1_short_black_hair_with_a_few_flecks_of_grey_ad49f082-d032-4767-be9c-b8817be9cef7.png?width=600&height=600" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Stuart!
+          </h1>
+          <p>
+            Hello, I'm Stuart, a junior software developer with a background in Computer Science. I recently graduated and am eager to apply my knowledge to real-world software solutions.
+            My coding journey began with a fascination for technology and a desire to build things from scratch. I enjoy the challenge of turning ideas into functional code, whether it's crafting websites, developing applications, or solving coding puzzles.
+            Continuous learning is essential to me. I stay updated with the evolving tech landscape and explore new languages, frameworks, and tools.
+            I thrive in team environments where collaboration and open communication lead to innovative solutions. I've worked on various projects, from web development to data analysis, each contributing to my growth as a developer.
+            Outside of coding, I enjoy outdoor activities, gaming, and reading. Life is about balance, and these hobbies keep me inspired.
+            I'm excited to share my coding journey and projects with you. Explore my portfolio and get in touch for collaboration or tech discussions. Let's build something amazing together!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/CSS3.png"/>
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+          </div> 
+          
+        <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>Java</h6>
+            <p>2 years experience</p>
+          </div> 
+          
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Node.JS</h6>
+            <p>1.5 years experience</p>
+          </div> 
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Task Manager Application</h3>
+            <ul>
+              <li>Designed and developed a task manager web application using HTML, CSS, and JavaScript.
+                Implemented user authentication and authorization for secure access.
+                Features include task creation, editing, and categorization.
+                Utilized local storage for data persistence, ensuring tasks are saved even after the browser is closed.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li>Built a personal portfolio website to showcase coding projects and skills.
+                Designed the website's user interface using HTML and CSS.
+                Employed responsive design techniques to ensure optimal viewing on various devices.
+                Included sections for an "About Me" page, project showcase, and contact information.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>Created a weather application that provides real-time weather data based on user location.
+                Developed the app using HTML, CSS, JavaScript, and a weather API.
+                Implemented geolocation to fetch the user's coordinates for accurate weather information.
+                Displayed current weather conditions, temperature, and a 7-day forecast.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Stuart is a quick learner in web development, with a positive attitude and strong teamwork skills. He asks insightful questions and shows tremendous leadership potential.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Stuart has been a pleasure. He's a fast learner, a great team player, and his inquisitiveness and proactive approach make him a potential leader.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Stuart's rapid learning in web development, combined with his collaborative nature and leadership potential, make him a valuable team member. He asks the right questions and takes initiative.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
